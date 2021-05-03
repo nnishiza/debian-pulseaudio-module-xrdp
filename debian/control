@@ -23,6 +23,7 @@ Build-Depends: debhelper-compat (= 11),
     liblircclient-dev,
     libltdl-dev,
     liborc-0.4-dev,
+    libpulse-dev,
     libsamplerate0-dev,
     libsndfile1-dev,
     libsoxr-dev (>= 0.1.1),
@@ -36,7 +37,8 @@ Build-Depends: debhelper-compat (= 11),
     libx11-xcb-dev,
     libxcb1-dev,
     libxtst-dev,
-    pkg-config
+    pkg-config,
+    pulseaudio
 Standards-Version: 4.2.1
 Rules-Requires-Root: no
 Vcs-Git: https://github.com/nnishiza/debian-pulseaudio-module-xrdp.git
