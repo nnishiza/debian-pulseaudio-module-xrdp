@@ -8,9 +8,9 @@ DEB_BUILD_MAINT_OPTIONS = hardening=+all
 
 include /usr/share/dpkg/default.mk
 
-PULSEAUDIO_DSC = $(CURDIR)/debian/pulseaudio_12.2-4+deb10u1.dsc
-PULSEAUDIO_DIR = $(CURDIR)/pulseaudio-12.2
-PULSEAUDIO_ORIG_TAR = $(CURDIR)/pulseaudio_12.2.orig.tar.xz
+PULSEAUDIO_DSC = $(CURDIR)/debian/pulseaudio_14.2-2.dsc
+PULSEAUDIO_DIR = $(CURDIR)/pulseaudio-14.2
+PULSEAUDIO_ORIG_TAR = $(CURDIR)/pulseaudio_14.2.orig.tar.xz
 
 export AUTOPOINT=intltoolize --automake --copy
 
@@ -19,7 +19,7 @@ export AUTOPOINT=intltoolize --automake --copy
 
 
 build:
-	dpkg-source -x $(CURDIR)/debian/pulseaudio_12.2-4+deb10u1.dsc
+	dpkg-source -x $(PULSEAUDIO_DSC)
 	dh build
 
 clean:

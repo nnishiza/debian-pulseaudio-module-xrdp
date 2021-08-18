@@ -1,3 +1,9 @@
+pulseaudio-module-xrdp (0.5-1~wm2+14.2+2) unstable; urgency=medium
+
+  * Release for pulseaudio 14.2.
+
+ -- Nobuyuki Nishizawa <nobuyuki@westmarsh.jp>  Tue, 17 Aug 2021 03:44:52 +0900
+
 pulseaudio-module-xrdp (0.5-1~wm1+12.2+4+deb10u1) unstable; urgency=medium
 
   * New upstream release
